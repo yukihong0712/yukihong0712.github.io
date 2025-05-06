@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenHill|綠崗商品</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="uikit.css" />
+</head>
+<body>
+    <!--頁首-->
+    <header class="uk-background-muted uk-padding-small" uk-sticky="offset: 0;">
+        <div class="uk-container uk-flex uk-flex-middle uk-flex-between">
+            <!-- Logo 和網站名稱 -->
+            <div class="uk-flex uk-flex-middle">
+                <a href="index.html"><img src="photo/logo1.png" alt="網站 Logo" class="uk-margin-small-right uk-border-circle" width="90" height="90"></a>
+                <div class="logo">
+                    <h1 class="uk-margin-remove uk-text-bold uk-text-primary">綠崗早午餐</h1>
+                    <p class="uk-margin-remove uk-text-meta">GreenHill Brunch</p>
+                </div>
+            </div>
+            <!-- RWD 選單 -->
+            <nav class="uk-navbar-container" uk-navbar>
+                <!-- 漢堡選單（行動版） -->
+                <div class="uk-hidden@m">
+                    <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-nav">
+                        <span uk-navbar-toggle-icon></span>
+                    </button>
+                    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+                        <div class="uk-offcanvas-bar">
+                            <button class="uk-offcanvas-close" type="button" uk-close></button>
+                            <ul class="uk-nav uk-nav-default">
+                                <li><a href="index.html">首頁</a></li>
+                                <li><a href="about.html">關於我們</a></li>
+                                <li><a href="product.html">產品列表</a></li>
+                                <li><a href="contact.html">聯絡我們</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 電腦版選單 -->
+                <ul class="menu uk-navbar-nav uk-visible@m">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="about.html">關於我們</a></li>
+                    <li><a href="product.html">產品列表</a></li>
+                    <li><a href="contact.html">聯絡我們</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--主內容 main-->
+        <!--人氣精選-->
+    <section class="product uk-container uk-section uk-section-default">
+        <div class="uk-height-small uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="photo/banner3.jpg" uk-img="loading: eager">
+            <h1>人氣精選 Popular Items</h1>
+        </div>
+        <div class="uk-child-width-1-2@m uk-child-width-1-3@l uk-child-width-1-4@xl" uk-grid>
+
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>雞腿排蛋三明治 </h3>
+                        <p>綿密吐司夾著鮮嫩多汁的雞腿排，搭配美生菜、牛番茄、黃瓜與滑順的起司，層層堆疊出豐富的口感。特製的福源花生醬帶來微甜香濃的風味，完美平衡鹹味與鮮味，讓每一口都回味無窮。再加上營養滿分的煎蛋與沙拉，這款三明治無論是當早餐還是輕食都非常合適，給你一天滿滿的活力！</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/chicken-thigh-chop-and-egg-toasted-sandwich.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>豬排蛋三明治</h3>
+                        <p>以軟嫩多汁的國產豬排為主角，這款三明治融合了美生菜、牛番茄、黃瓜與香濃起司，增添了豐富的蔬菜鮮味。搭配彰化福源花生醬，散發出淡淡的花生香氣，甜鹹交織令人食指大動。吐司經過精心烘烤，外酥內軟，夾著煎蛋與沙拉，更加完整了這道經典的美味！</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/pork-chop-and-egg-toasted-sandwich.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>香腸蛋三明治</h3>
+                        <p>豐厚的國產香腸以香氣十足的烘烤方式處理，搭配生脆的美生菜、番茄和黃瓜，層層滋味相互呼應。再加入滑順的起司、濃郁的福源花生醬，以及一顆金黃煎蛋，讓整體口感更加豐富。香腸的鹹香與蔬菜的清爽完美融合，無論是單人早餐或是悠閒午餐，都讓人充滿滿足感。</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/sausage-and-egg-sandwich.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>海鹽牛五花三明治</h3>
+                        <p>特選來自美國的牛五花肉，以海鹽調味提升牛肉本身的風味，再與美生菜、牛番茄、黃瓜和起司搭配，打造出層次豐富的口感。福源花生醬為整體增添一抹溫潤的甜香，讓鹹香的牛五花與蔬菜的清爽達到絕妙平衡。這是一款不容錯過的經典早午餐選擇，滿足肉類愛好者的味蕾！</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/sea-salt-beef-flake-sandwich.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>總匯三明治</h3>
+                        <p>四片酥脆吐司層層堆疊，夾著豐富的國產豬排、大火腿、培根，再融合美生菜、番茄、黃瓜與滑順起司，提供最豪華的口感享受。福源花生醬帶來微甜的香氣，搭配煎蛋與沙拉，讓這道總匯三明治每一口都充滿驚喜與滿足，是聚會、共享餐點的不二選擇！</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/club-sandwich.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+        </div>
+    </section>
+        <!--碳烤吐司系列-->
+    <section class="product uk-container uk-section uk-section-default">
+        <div class="uk-height-small uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="photo/banner2.jpg" uk-img="loading: eager">
+            <h1>碳烤吐司系列 (Toasted Toasts)</h1>
+        </div>
+        <div class="uk-child-width-1-2@m uk-child-width-1-3@l uk-child-width-1-4@xl" uk-grid>
+
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>豬排蛋吐司</h3>
+                        <p>酥脆吐司包裹著國產豬里肌肉，經過醃製後的豬排散發出濃郁的香氣。搭配清脆小黃瓜絲與新鮮番茄，再加上一顆嫩煎蛋和沙拉，讓整體風味清新又不失濃郁。每一口都能感受到外酥內軟的完美平衡，是簡單又不簡單的經典早晨之選。</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/pork-chop-and-egg-toast.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>大火腿蛋吐司</h3>
+                        <p>選用厚切國產大火腿，搭配新鮮小黃瓜與濃郁蛋香，這款吐司完美詮釋了早餐的美味。火腿的鹹香與酥脆吐司相得益彰，搭配清爽的沙拉更添層次。簡單卻充滿溫暖，這是一道適合每一天的日常早點。</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/ham-and-egg-toast.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>鮪魚蛋吐司</h3>
+                        <p>鮮嫩的鮪魚餡料夾在酥香吐司中，搭配新鮮小黃瓜與滑嫩煎蛋，口感細膩又清爽。特別注意不加入洋蔥，讓風味更加純粹。沙拉醬的點綴為整體增添柔和的滋味，這款吐司是健康與美味的絕佳平衡。</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/tuna-and-egg-toast.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>蔬菜蛋吐司</h3>
+                        <p>新鮮蔬菜的豐富搭配，包括美生菜、番茄與小黃瓜，讓這款吐司口感清爽、營養滿分。煎蛋的滑順與吐司的酥脆交織出和諧的滋味，是蔬食愛好者的最佳選擇。簡單卻不失美味，是一天的輕盈開始！</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/vegetable-and-egg-toast.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>培根蛋吐司</h3>
+                        <p>香氣濃郁的國產培根，與嫩煎蛋一起夾在吐司中，搭配新鮮的小黃瓜與沙拉，讓這款吐司鹹香十足。吐司經過烘烤後，外酥內軟，搭配濃郁的培根香氣，讓人一口接一口停不下來。</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/club-sandwich.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+        </div>
+    </section>
+        <!--碳烤三明治系列-->
+    <section class="product uk-container uk-section uk-section-default">
+        <div class="uk-height-small uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="photo/banner1.jpg" uk-img="loading: eager">
+            <h1>碳烤三明治系列 (Toasted Sandwiches)</h1>
+        </div>
+        <div class="uk-child-width-1-2@m uk-child-width-1-3@l uk-child-width-1-4@xl" uk-grid>
+
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>大火腿蛋三明治</h3>
+                        <p>厚實的火腿片與滑嫩煎蛋完美搭配，再加上美生菜、牛番茄與黃瓜的清爽口感，層次感十足。福源花生醬的點綴為這款三明治增添香甜氣息，吐司經過碳烤後更加酥脆，讓人難以抗拒！</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/ham-and-egg-sandwich.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>泡菜牛五花三明治</h3>
+                        <p>結合韓式泡菜的微辣酸香與牛五花的鮮嫩多汁，這款三明治讓味蕾感受濃郁的異國風情。搭配美生菜、番茄與起司，帶來豐富的層次感。碳烤吐司的香脆與內餡的濃郁交織，是重口味愛好者的絕佳選擇！</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/kimchi-and-beef-flake-sandwich.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>鮪魚蛋三明治</h3>
+                        <p>鮪魚的鮮美風味搭配煎蛋與新鮮蔬菜，這款三明治充滿健康與活力。滑順的起司與碳烤吐司讓整體更加濃郁而不失清爽，簡單卻經典，適合所有注重健康與營養的人。</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/tuna-and-egg-sandwich.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3>培根蛋三明治</h3>
+                        <p>酥香的國產培根與煎蛋搭配，配上清爽的美生菜、番茄與黃瓜，再融合福源花生醬的微甜香氣，讓每一口都充滿鹹香與甜美的平衡感。吐司經過碳烤後更添口感，是早餐與午餐的不敗選擇！</p>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="photo/bacon-and-egg-sandwich.jpg" width="90%" height="90%" alt="" class="uk-border-rounded">
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- 頁尾區段 -->
+    <footer class="uk-section uk-section-secondary uk-light">
+        <div class="uk-container">
+            <div class="uk-grid-match uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2@s" uk-grid>
+                <!-- 第一欄：網站資訊 -->
+                <div>
+                    <h4 class="uk-text-bold">關於我們</h4>
+                    <p>迅速的餐點製作與送餐效率，讓您可以更悠閒地享受碳烤的美味。</p>
+                </div>
+                <!-- 第二欄：聯絡方式 -->
+                <div>
+                    <h4 class="uk-text-bold">聯絡方式</h4>
+                    <ul class="uk-list">
+                        <li><span uk-icon="location"></span> 彰化市介壽北1號</li>
+                        <li><span uk-icon="receiver"></span> 04-7111111</li>
+                        <li><span uk-icon="mail"></span> greenhill@gmail.com</li>
+                    </ul>
+                </div>
+                <!-- 第三欄：快速連結 -->
+                <div>
+                    <h4 class="uk-text-bold">快速連結</h4>
+                    <ul class="uk-list">
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="about.html">關於我們</a></li>
+                        <li><a href="product.html">產品列表</a></li>
+                        <li><a href="contact.html">聯絡我們</a></li>
+                    </ul>
+                </div>
+                <!-- 第四欄：社群媒體 -->
+                <div>
+                    <h4 class="uk-text-bold">追蹤我們</h4>
+                    <div class="uk-flex uk-flex-middle">
+                        <a href="https://www.facebook.com/profile.php?id=100000206846905&locale=zh_TW" class="uk-icon-button uk-margin-small-right" uk-icon="facebook"></a>
+                        <a href="https://x.com/wimsckit" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                        <a href="https://www.instagram.com/wimsckit/" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
+                        <a href="https://www.youtube.com/@wimsckit" class="uk-icon-button uk-margin-small-right" uk-icon="youtube"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+</body>
+</html>

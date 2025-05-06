@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenHill Brunch</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="uikit.css" />
+</head>
+<body>
+    <!--頁首-->
+    <header class="uk-background-muted uk-padding-small" uk-sticky="offset: 0;">
+        <div class="uk-container uk-flex uk-flex-middle uk-flex-between">
+            <!-- Logo 和網站名稱 -->
+            <div class="uk-flex uk-flex-middle">
+                <a href="index.html"><img src="photo/logo1.png" alt="網站 Logo" class="uk-margin-small-right uk-border-circle" width="90" height="90"></a>
+                <div class="logo">
+                    <h1 class="uk-margin-remove uk-text-bold uk-text-primary">綠崗早午餐</h1>
+                    <p class="uk-margin-remove uk-text-meta">GreenHill Brunch</p>
+                </div>
+            </div>
+            <!-- RWD 選單 -->
+            <nav class="uk-navbar-container" uk-navbar>
+                <!-- 漢堡選單（行動版） -->
+                <div class="uk-hidden@m">
+                    <button class="uk-button uk-button-default" type="button" uk-toggle="target: #offcanvas-nav">
+                        <span uk-navbar-toggle-icon></span>
+                    </button>
+                    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+                        <div class="uk-offcanvas-bar">
+                            <button class="uk-offcanvas-close" type="button" uk-close></button>
+                            <ul class="uk-nav uk-nav-default">
+                                <li><a href="index.html">首頁</a></li>
+                                <li><a href="about.html">關於我們</a></li>
+                                <li><a href="product.html">產品列表</a></li>
+                                <li><a href="contact.html">聯絡我們</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 電腦版選單 -->
+                <ul class="menu uk-navbar-nav uk-visible@m">
+                    <li><a href="index.html">首頁</a></li>
+                    <li><a href="about.html">關於我們</a></li>
+                    <li><a href="product.html">產品列表</a></li>
+                    <li><a href="contact.html">聯絡我們</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!--特色-->
+<section class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h2 class="uk-heading-line uk-text-center"><span>GreenHill 特色</span></h2>
+        <div class="uk-child-width-1-3@s uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">快速高效的出餐速度</h3>
+                    <p class="uk-dropcap">
+                        綠崗早午餐以「小魔女宅急便的出餐速度」為特色，提供迅速的餐點製作與送餐效率，讓顧客在忙碌的生活節奏中也能快速享受美味餐點。
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">主打碳烤美味</h3>
+                    <p class="uk-dropcap">
+                        碳烤是店內的核心烹飪特色，結合多款三明治與吐司系列，搭配福源花生醬及鮮蔬，讓餐點擁有獨特的風味。尤其如雞腿排蛋三明治、海鹽牛五花三明治等都是人氣選擇。
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <h3 class="uk-card-title">溫馨舒適的店內設計</h3>
+                    <p class="uk-dropcap">
+                        店內設計採用現代木質元素搭配綠色植栽，營造出溫馨又自然的氛圍，搭配大面窗戶採光，適合早午餐時段放鬆小憩或打卡拍照。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--碳烤美味-->
+<section class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h2 class="uk-heading-line uk-text-center"><span>綠崗上的碳烤美味</span></h2>
+        <div class="uk-grid uk-child-width-1-2@s uk-flex-middle" uk-grid>
+            <div>
+                <img src="photo/mystore.jpg" alt="店面照片" class="uk-width-1-1">
+            </div>
+            <div>
+                <p>
+                    位於彰化市介壽北路1號的綠崗早午餐，以「碳烤就是美味」為主打，提供健康、美味又快速的早午餐選擇，成為忙碌生活中的最佳補給站。
+                </p>
+                <p>
+                    店內招牌如雞腿排蛋三明治、海鹽牛五花三明治，將碳烤的香氣發揮極致，搭配新鮮蔬菜與福源花生醬，風味層次豐富，特別受到顧客喜愛。大食量朋友更不能錯過總匯三明治，四片厚吐司滿載豐富配料，飽足又超值！
+                </p>
+                <p>
+                    店內裝潢以木質調結合綠植，大片落地窗帶來自然採光，營造溫馨舒適的用餐氛圍，適合聚餐打卡。綠崗更以「小魔女宅急便」般的出餐速度，讓顧客迅速享用現點現做的碳烤美味。
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--溫馨推薦-->
+<section class="uk-section uk-section-default">
+    <div class="uk-container">
+        <h2 class="uk-heading-line uk-text-center"><span>店長溫馨推薦</span></h2>
+        <div class="uk-child-width-1-3@s uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                    <img src="photo/pork-chop-and-egg-toasted-sandwich.jpg" alt="商品1" class="uk-border-circle" width="95%" height="95%">
+                    <h3 class="uk-card-title">豬排蛋三明治</h3>
+                    <p>選用國產豬排，經獨家醃製入味，搭配清脆蔬菜與綿密雞蛋，層層口感帶來濃郁風味，堪稱早餐經典必吃選擇！</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                    <img src="photo/sea-salt-beef-flake-sandwich.jpg" alt="商品2" class="uk-border-circle" width="95%" height="95%">
+                    <h3 class="uk-card-title">海鹽牛五花三明治</h3>
+                    <p>選用美國進口海鹽牛五花，口感軟嫩多汁，撒上些許海鹽提味，搭配香濃起司與爽口蔬菜，是追求口感層次的完美選擇！</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                    <img src="photo/bacon-and-egg-toast.jpg" alt="商品3" class="uk-border-circle" width="95%" height="95%">
+                    <h3 class="uk-card-title">培根蛋吐司</h3>
+                    <p>台灣培根鹹香四溢，搭配雞蛋、小黃瓜與沙拉醬，簡單卻能滿足一整天的元氣需求！</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- 頁尾區段 -->
+    <footer class="uk-section uk-section-secondary uk-light">
+        <div class="uk-container">
+            <div class="uk-grid-match uk-child-width-1-4@l uk-child-width-1-3@m uk-child-width-1-2@s" uk-grid>
+                <!-- 第一欄：網站資訊 -->
+                <div>
+                    <h4 class="uk-text-bold">關於我們</h4>
+                    <p>迅速的餐點製作與送餐效率，讓您可以更悠閒地享受碳烤的美味。</p>
+                </div>
+                <!-- 第二欄：聯絡方式 -->
+                <div>
+                    <h4 class="uk-text-bold">聯絡方式</h4>
+                    <ul class="uk-list">
+                        <li><span uk-icon="location"></span> 彰化市介壽北1號</li>
+                        <li><span uk-icon="receiver"></span> 04-7111111</li>
+                        <li><span uk-icon="mail"></span> greenhill@gmail.com</li>
+                    </ul>
+                </div>
+                <!-- 第三欄：快速連結 -->
+                <div>
+                    <h4 class="uk-text-bold">快速連結</h4>
+                    <ul class="uk-list">
+                        <li><a href="index.html">首頁</a></li>
+                        <li><a href="about.html">關於我們</a></li>
+                        <li><a href="product.html">產品列表</a></li>
+                        <li><a href="contact.html">聯絡我們</a></li>
+                    </ul>
+                </div>
+                <!-- 第四欄：社群媒體 -->
+                <div>
+                    <h4 class="uk-text-bold">追蹤我們</h4>
+                    <div class="uk-flex uk-flex-middle">
+                        <a href="https://www.facebook.com/profile.php?id=100000206846905&locale=zh_TW" class="uk-icon-button uk-margin-small-right" uk-icon="facebook"></a>
+                        <a href="https://x.com/wimsckit" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                        <a href="https://www.instagram.com/wimsckit/" class="uk-icon-button uk-margin-small-right" uk-icon="instagram"></a>
+                        <a href="https://www.youtube.com/@wimsckit" class="uk-icon-button uk-margin-small-right" uk-icon="youtube"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+
+</body>
+</html>
